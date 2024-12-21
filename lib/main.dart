@@ -10,10 +10,10 @@ class DictionaryApp extends StatefulWidget {
   const DictionaryApp({super.key});
 
   @override
-  State<DictionaryApp> createState() => _DictionaryAppState();
+  State<DictionaryApp> createState() => DictionaryAppState();
 }
 
-class _DictionaryAppState extends State<DictionaryApp> {
+class DictionaryAppState extends State<DictionaryApp> {
   int _selectedIndex = 0;
 
   // タブに対応する画面のリスト

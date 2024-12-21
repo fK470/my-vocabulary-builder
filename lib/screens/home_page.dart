@@ -87,17 +87,18 @@ class _HomePageState extends State<HomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      if (_word!.phonetic != null)
+                      if (_word!.phonetic != null) ...[
                         Text(
                           _word!.phonetic!,
                           style: const TextStyle(fontSize: 18),
                         ),
-                      IconButton(
-                        icon: const Icon(Icons.volume_up),
-                        onPressed: () {
-                          _audioService.playAudio(_word!.audioUrl);
-                        },
-                      ),
+                        IconButton(
+                          icon: const Icon(Icons.volume_up),
+                          onPressed: () {
+                            _audioService.playAudio(_word!.audioUrl);
+                          },
+                        ),
+                      ],
                     ],
                   ),
                   const SizedBox(height: 10),
