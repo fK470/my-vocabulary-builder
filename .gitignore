@@ -37,7 +37,6 @@ app.*.map.json
 build/
 
 **/doc/api/
-**/ios/Flutter/.last_build_id
 
 # For Android Studio (IntelliJ) IDE # Android Studio (IntelliJ)関連
 *.iml
@@ -77,32 +76,3 @@ android/build
 # Keystore files # キーストアファイル（パスワード等を含む可能性があるので注意）
 *.jks
 *.keystore
-
-#-------------------------------------------------------------------------------
-# iOS/macOS
-#-------------------------------------------------------------------------------
-
-# Xcode generated files # Xcodeで生成されるファイル
-ios/Runner.xcworkspace/
-ios/Runner.xcodeproj/
-ios/Flutter/App.framework/
-ios/Flutter/Flutter.framework/
-ios/Flutter/Generated.xcconfig
-ios/Podfile.lock
-ios/Pods/
-ios/build/
-macos/Runner.xcworkspace/
-macos/Runner.xcodeproj/
-macos/Flutter/App.framework/
-macos/Flutter/Flutter.framework/
-macos/Flutter/Generated.xcconfig
-macos/Podfile.lock
-macos/Pods/
-macos/build/
-
-#-------------------------------------------------------------------------------
-# Web
-#-------------------------------------------------------------------------------
-
-# Generated web build files # Webビルドで生成されるファイル
-web/
