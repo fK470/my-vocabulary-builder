@@ -1,16 +1,43 @@
 # my_vocabulary_builder
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+`my_vocabulary_builder` is a Flutter application designed to help users build and expand their vocabulary. The app provides various features to make learning new words engaging and effective.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Word of the Day**: Get a new word every day with its definition and usage.
+- **Quizzes**: Test your knowledge with interactive quizzes.
+- **Flashcards**: Review words using flashcards.
+- **Progress Tracking**: Track your learning progress over time.
+- **Custom Word Lists**: Create and manage your own word lists.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To get started with `my_vocabulary_builder`, follow these steps:
+
+1. **Clone the repository**:
+  ```sh
+  git clone https://github.com/yourusername/my_vocabulary_builder.git
+  ```
+2. **Navigate to the project directory**:
+  ```sh
+  cd my_vocabulary_builder
+  ```
+3. **Install dependencies**:
+  ```sh
+  flutter pub get
+  ```
+4. **Run the app**:
+  ```sh
+  flutter run
+  ```
+
+## Usage
+
+Once the app is running, you can start exploring the features:
+
+- **Daily Word**: Check the home screen for the word of the day.
+- **Quizzes**: Navigate to the quiz section to test your vocabulary.
+- **Flashcards**: Use the flashcards section to review words.
+- **Word Lists**: Create and manage custom word lists in the settings.
